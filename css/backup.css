@@ -29,14 +29,13 @@ h1{
     
 }
 h2{
-    margin-top: 20px;
-    margin-bottom: 20px;
+    
     background-image: url(https://images.pexels.com/photos/172277/pexels-photo-172277.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);    
     text-align: center;
     padding: 1%;
-    margin: 3px;
     color: antiquewhite;
     border: 3px solid goldenrod;  
+    box-shadow: 13px 12px 18px 4px rgba(122,112,122,0.76);
 }
 
 h3{
@@ -64,7 +63,7 @@ h5{
 
 .headed{
     text-align: center;
-    padding: 2%;
+    padding: 1%;
     margin: 3px;
     border: 3px solid goldenrod;
 }
@@ -100,16 +99,16 @@ h5{
 }
 
 
-.menu{
+.headed{
     display: flex;
     justify-content: space-around;
     align-items: center;
     margin: 0 0 40px 0;
     list-style: none;
     background-color: white;
-    -webkit-box-shadow: 0px 22px 53px -33px rgba(0,0,0,0.75);
-    -moz-box-shadow: 0px 22px 53px -33px rgba(0,0,0,0.75);
-    box-shadow: 0px 22px 53px -33px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 13px 12px 18px 4px rgba(122,112,122,0.76);
+    -moz-box-shadow: 13px 12px 18px 4px rgba(122,112,122,0.76);
+    box-shadow: 13px 12px 18px 4px rgba(122,112,122,0.76);
    
 }
 
