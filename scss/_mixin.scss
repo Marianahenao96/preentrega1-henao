@@ -1,0 +1,102 @@
+// Mixin para estilos de párrafos
+@mixin text-style {
+    color: $text-color;
+    text-align: justify;
+    margin: 40px;
+    font-family: $main-font;
+  }
+  
+  // Mixin para adaptabilidad (media queries)
+  @mixin responsive($size) {
+    @media screen and (max-width: $size) {
+      @content;
+    }
+  }
+
+  // Mixin para centrar con flex
+@mixin flex-center($direction: row) {
+    display: flex;
+    justify-content: center;
+    flex-direction: $direction;
+  }
+  
+  @mixin prominent-section($padding: 0 20px, $margin: 20px 0) {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}    
+  
+  // Mixin para cheese1
+  @mixin cheese1-style($margin: 10px 0) {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: $margin;
+  }
+  // Mixin para el estilo de imágenes
+  @mixin image-style($width, $height) {
+    width: $width;
+    height: $height;
+    border-radius: 16px;
+    object-fit: cover;
+    display: block;
+    margin: auto;
+
+  }
+  
+  // Mixin para posición fija
+  @mixin fixed-position($bottom, $right, $z-index: 1000) {
+    position: fixed;
+    bottom: $bottom;
+    right: $right;
+    z-index: $z-index;
+  }
+  
+  // Mixin para diseño de grid
+  @mixin grid-layout($columns, $rows, $areas) {
+    display: grid;
+    grid-template-columns: $columns;
+    grid-template-rows: $rows;
+    grid-template-areas: $areas;
+    place-items: center;
+  }
+  // Mixin para centrar con flex
+@mixin flex-center($direction: row) {
+    display: flex;
+    justify-content: center;
+    flex-direction: $direction;
+  }
+  
+  // Mixin para el estilo de imágenes
+  @mixin image-style($width, $height) {
+    width: $width;
+    height: $height;
+    border-radius: 16px;
+    object-fit: cover;
+  }
+  
+  // Mixin para posición fija
+  @mixin fixed-position($bottom, $right, $z-index: 1000) {
+    position: fixed;
+    bottom: $bottom;
+    right: $right;
+    z-index: $z-index;
+  }
+  
+  // Mixin para diseño de grid
+  @mixin grid-layout($columns, $rows, $areas) {
+    display: grid;
+    grid-template-columns: $columns;
+    grid-template-rows: $rows;
+    grid-template-areas: $areas;
+    place-items: center;
+  }
+  
+  // Mixin para imágenes redondeadas
+  @mixin rounded-image($width, $height) {
+    width: $width;
+    height: $height;
+    border-radius: 16px;
+    object-fit: cover;
+  }
