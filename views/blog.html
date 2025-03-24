@@ -62,7 +62,10 @@
             <p> Blue cheese is a type of cheese characterized by the veins of blue mold that give it its particular
                 appearance. This cheese can have a flavor ranging from mild and creamy to intense and spicy. Depending
                 on the variety and the ripening process. 
-                <a href="blog-post.html" class="read-more">Read more >></a>
+                <span id="more-text" style="display: none;">
+                    It is usually aged in controlled environments, and its taste depends on the type of mold used and the aging time.
+                </span>
+                <a href="#" class="read-more" id="readMoreLink" onclick="showMore()">Read more >></a>
             </p>
         </div>  
     
@@ -100,6 +103,13 @@
     </footer>
     <!--Script Bootstrap-->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+<script>
+    function showMore() {
+        document.getElementById('more-text').style.display = 'inline';
+        document.getElementById('readMoreLink').style.display = 'none';
+    }
+</script>
+
 
 </body>
 </html>
