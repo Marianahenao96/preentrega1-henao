@@ -16,3 +16,18 @@ $shadow-pie1: 0 4px 8px rgba(0,0,0,2);
 $shadow-headed: 13px 12px 18px 4px rgba(122,112,122,0.76);
 $font-family: 'Lucida Sans', Geneva, Verdana, sans-serif;
 $font-family-pie: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+%font-gray{
+    color: gray;
+}
+%font-rgba{
+    color: rgba(60, 17, 17, 0.575);
+}
+%center-text{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+%border{
+    border: 2px solid, goldenrod;
+}
