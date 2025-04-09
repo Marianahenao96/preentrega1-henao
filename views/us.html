@@ -3,15 +3,18 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <meta name="description" content="Conoce nuestra pasión por el queso. Somos una empresa dedicada a crear experiencias gastronómicas únicas con ingredientes artesanales y amor por los detalles.">
+    <meta name="keywords" content="sobre nosotros, quiénes somos, historia de la empresa, equipo de trabajo, empresa de quesos, pasión por el queso">
+    <title>Cheese Boards|Nosotros</title>
 
 
     <!--BOOTSTRAP-->
 
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
 
-
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="../css/styles.css">
+
 </head>
 <body>
     <header>
@@ -19,7 +22,7 @@
         <nav class="navbar navbar-expand-lg bg-transparent">
             <div class="container-fluid">
               <a class="navbar-brand" href="#">
-                <img src="../img/cheeseBoard1.png" alt="logo" style="height: 70px;">
+                <img src="../img/cheeseBoard1.png" alt="logo" style="height: 70px;" >
               </a>
               <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -57,7 +60,8 @@
             </div>
 
             <div class="prominent">
-                <img class="imagePrincipal" src="../img/quesos1.png" alt="Cheese demonstration">
+                <img class="imagePrincipal" src="../img/quesos1.png" alt="Cheese demonstration" data-aos="fade-up"
+                data-aos-anchor-placement="top-bottom">
             </div>
          <div>
             <p>
@@ -68,15 +72,15 @@
          </div> 
          <div class="products">
             <div>
-                <img class="products1" src="../img/cheese.png" alt="Cheese">
+                <img class="products1" src="../img/cheese.png" alt="Cheese" data-aos="fade-right">
                 <p>Chesses</p>
             </div>
          <div>
-            <img class="products1" src="../img/rawMeats.png" alt="Raw">
+            <img class="products1" src="../img/rawMeats.png" alt="Raw" data-aos="zoom-in">
             <p>Raw Meats</p>
          </div>  
          <div>
-            <img class="products1" src="../img/antipasto.png" alt="Antipasto">
+            <img class="products1" src="../img/antipasto.png" alt="Antipasto" data-aos="fade-left">
             <p>Antipasto</p>
          </div>   
         </div> 
@@ -116,6 +120,11 @@
 
     <!--Script Bootstrap-->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+    AOS.init();
+  </script>
+
 
 </body>
 </html>
