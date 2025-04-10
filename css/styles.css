@@ -208,16 +208,17 @@ h3.h5, h5.h5 {
   flex-direction: row;
   display: flex;
   justify-content: center;
+  text-align: center;
   align-items: center;
-  padding: 20px;
+
 }
 .products .products1 {
+  border-radius: 16px;
   width: 400px;
   height: 400px;
   flex-direction: row;
   object-fit: cover;
-  border-radius: 16px;
-  padding: 30px;
+  padding: 5px;
 }
 
 .blog {
